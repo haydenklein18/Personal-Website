@@ -1,15 +1,16 @@
-import './App.css';
+import './Styling/App.css';
+import Header from "./Components/Sections/Header"
+import About from "./Components/Sections/About"
+import Resume from "./Components/Sections/Resume"
+import Contacts from "./Components/Sections/Contacts"
 
 function App() {
   return (
-    <div className="App">
-      <header className="Intro-Page">
-      Hello World!
-      </header>
-      <div className="Right-Links">
-        <a  className= "Links" href="https://www.youtube.com/watch?v=9FLRHejWAo8?autoplay=1">Link1</a>
-        <a  className= "Links" href="https://www.youtube.com/watch?v=Q_9VMaX61nI?autoplay=1">Link2</a>
-      </div>
+    <div className="Base-Page">
+      <Header />
+      <About />
+      <Resume />
+      <Contacts />
     </div>
   );
 }
