@@ -1,20 +1,21 @@
-.Header {
-    padding: 10px;
-    display:inline-block;
-    flex-direction: column;
+.HeaderDiv {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.HeaderLeft, .HeaderRight {
+    color: #FAF9F6;
+    font-size: 25px;
+    border: 2px solid #FAF9F6;
+    border-radius: 25px;
+    border-spacing: 5px;
+    padding: 7px;
+    margin: 10px;
 }
 .HeaderLeft{
-    color: #FAF9F6;
-    padding: 20px;
-    align-self: left;
-    display:inline-block;
     float: left;
 }
 
 .HeaderRight{
-    color: #FAF9F6;
-    padding: 20px;
-    align-self: right;
-    display:inline-block;
     float: right;
 }
