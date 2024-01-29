@@ -1,0 +1,14 @@
+.ProjectsDiv{
+    text-align:center;
+}
+
+.Projects{
+    display: inline-block;
+    margin: auto;
+    width: fit-content;
+}
+
+.Github{
+    width:50px;
+    height: auto;
+}

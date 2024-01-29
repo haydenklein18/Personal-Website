@@ -1,15 +1,14 @@
 .Base-Page {
-  background-color: #121212;
-  min-height: 100vh;
+  background-color: #010101;
+  height: 100%;
+  width: 100%;
   display: flex;
   font-size: calc(10px + 2vmin);
   font-family: Arial, Helvetica, sans-serif;
-  flex-grow: 1;
 }
 
 .Col-Flex{
-  min-height: 100vh;
-  flex-grow: inherit;
+  width: 100%;
 }
 
 html, body {

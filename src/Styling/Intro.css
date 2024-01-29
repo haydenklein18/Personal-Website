@@ -1,12 +1,15 @@
 .IntroDiv{
-    height: 50px;
-    all: revert;
+    text-align:center;
 }
-.ImageSpan{
-    display:inline-block;
-    flex-grow:1;
+
+.ImageDiv{
+    color: #fefefe;
+    display: inline-block;
+    margin: auto;
+    width: fit-content;
 }
 
 .Headshot{
-    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #902bf5;
 }

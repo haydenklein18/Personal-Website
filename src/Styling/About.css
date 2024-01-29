@@ -1,5 +1,10 @@
 .AboutDiv{
-    width: 75%;
-    height: 5%;
-    background-color: aliceblue;
+    text-align:center;
+}
+
+.ParaDiv{
+    color: #fefefe;
+    display: inline-block;
+    margin: auto;
+    width: fit-content;
 }

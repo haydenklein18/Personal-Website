@@ -1,0 +1,17 @@
+.SkillsContainer{
+    text-align:center;
+}
+.SkillsDiv{
+    color: #fefefe;
+    display: inline-block;
+    margin: auto;
+    width: fit-content;
+}
+.SkillsList{
+    display: inline-block;
+    text-align: left;
+    color: #fefefe;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
